@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo{
+    height: 85px;
+    width: 85px;
+}
+li{
+    list-style: none;
+    margin:20px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    justify-content: space-between;
+    color: white;
+}
+
+.bg_img{
+    background: url(./bag-img.jpeg);
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: bottom;
+}
+.header_manu{
+    display: flex;
+   background-color: black;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    color: white;
+    
+}
+.TOP{
+    vertical-align: middle;
+    border: 0;
+    margin-left: 45%;
+    margin-top: 50px;
+    
+}
+.food{
+    font-size: 70px;
+    font-weight: 200;
+    color: white;
+    align-items: center;
+    margin-left: 300px;
+}
+.hero_area h3{
+    font-size: 60px;
+    font-weight: 200;
+    color: white;
+    
+}
+.spain_tag{
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    margin: 0;
+}
+.photo_paragraph{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.ppp_ppp {
+        font-size: 20px;
+        font-weight: 100;
+        color: brown;
+        margin-left: 15px;
+        margin-right: 15px;
+ }
+
+.firs{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.one{
+    display: flex;
+    text-align: center;
+} 
+.part_2{
+    display: flex;
+
+}
+.headerernica{
+    background-color: chartreuse;
+    height: 700px;
+}
+.first_picture{
+    height: 250px;
+    width: 320px;
+}
+.second_picture{
+    height: 150px;
+    width: 150px;
+}
+.second_boxpic{
+    display: flex;
+    gap: 20px;
+    border: darkmagenta;
+}
+.discreption{
+    padding: 35px;
+    font-size: 20px;
+    color: black;
+    font-style: italic;
+}
+.name{
+    font-size: 60px;
+    font-weight: 100;
+    font-style: inherit;
+    padding: 20px;
+    margin-left: 200px;
+    color: brown;
+}
+           /* ===============slide start======= */
+.slider_section{
+    background: url(./bag-img.jpeg);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+}
+.slider_img{
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.897) ;
+}
+.slide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.resturant{
+    font-weight: 200px;
+    color: blueviolet;
+    font-size: 40px;
+}
+.para{
+    font-size: 30px;
+    color: brown;
+}
+.page_header{
+    color: white;
+}
+.line{
+    width: 200px;
+    height: 2px;
+    background: red;
+    margin-top: 10px;
+}
+.your-class{
+    display: flex;
+}
+.slider_img_start{
+    display: flex;
+    align-items: center;
+    flex-direction:column ;
+    margin-left: 100px;
+    height: 300px;
+    margin-top: 85px;
+}
+.card{
+    color: blue;
+    font-size: 35px;
+}
+.slick-initialized .szlick-slide{
+    display: flex;
+}
+.slick-prev::before,
+.slick-next::before{
+    color: brown;
+    font-size: 2.5rem;
+}
+.slick-prev,
+.slick-next{
+    width: 3.5rem;
+    height: 3.5rem;
+    z-index: 2;
+}
+.slick-list{
+    width: 95%;
+    margin-top: 0 auto;
+}
